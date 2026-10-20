@@ -1,5 +1,5 @@
 'use strict';
-const CACHE_NAME = 'sagyonisshi-pwa-v1';
+const CACHE_NAME = 'sagyonisshi-pwa-v2';
 const APP_FILES = [
   './',
   './index.html',
