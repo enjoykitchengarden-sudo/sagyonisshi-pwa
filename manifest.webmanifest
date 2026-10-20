@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "作業日誌",
+  "short_name": "作業日誌",
+  "description": "オフラインでも使える、シンプルな農作業日誌",
+  "lang": "ja-JP",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f5f8f5",
+  "theme_color": "#285c48",
+  "icons": [
+    {"src":"./icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
