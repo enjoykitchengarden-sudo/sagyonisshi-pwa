@@ -10,7 +10,7 @@
 <title>作業日誌</title>
 <style>
 :root{color-scheme:light;--green:#285c48;--green2:#e8f2ec;--ink:#1d2923;--muted:#5e6b63;--line:#d8e1da;--paper:#f5f8f5;--white:#fff;--danger:#9e3535;--radius:16px}
-*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans JP","Yu Gothic UI",sans-serif;line-height:1.5}button,input,textarea,select{font:inherit}button{min-height:44px;border:0;border-radius:12px;padding:10px 14px;font-weight:650;background:var(--green);color:white;cursor:pointer}button.secondary{background:var(--green2);color:var(--green);border:1px solid #c8dcd0}button.danger{background:#fff0f0;color:var(--danger);border:1px solid #ebcaca}button:disabled{opacity:.55;cursor:wait}input,textarea,select{width:100%;border:1px solid #bac9bd;border-radius:11px;background:#fff;color:var(--ink);padding:11px 12px;min-height:44px}textarea{min-height:150px;resize:vertical}label{font-size:.9rem;font-weight:650;display:block;margin-bottom:6px}.muted{color:var(--muted);font-size:.88rem}.tiny{font-size:.78rem;color:var(--muted)}header{background:var(--green);color:white;padding:20px 16px 18px}header h1{margin:0;font-size:1.45rem}header p{margin:5px 0 0;font-size:.88rem;color:#e2eee6}.statusbar{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:12px;font-size:.82rem;color:#f0f6f1}.pill{border:1px solid #a9cab7;border-radius:999px;padding:3px 9px;white-space:nowrap}.wrap{max-width:760px;margin:0 auto;padding:14px 12px calc(30px + env(safe-area-inset-bottom))}.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:14px;box-shadow:0 2px 8px #18382908}.card h2{font-size:1.08rem;margin:0 0 12px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.meta span{background:#f0f5f1;border-radius:9px;padding:7px 9px;font-size:.85rem}.row{display:flex;gap:8px;align-items:center}.row>*{min-width:0}.row button{flex-shrink:0}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.actions button{flex:1}.field-grid{display:grid;grid-template-columns:1fr;gap:10px}.field-set{border:1px solid var(--line);padding:10px;border-radius:12px}.field-set .row{align-items:center}.field-set .row span{flex:1}.field-set button{font-size:.85rem;padding:8px 10px}.search-grid{display:grid;grid-template-columns:1fr;gap:10px}.entry{padding:13px 0;border-top:1px solid var(--line)}.entry:first-child{border-top:0;padding-top:0}.entry-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;font-size:.84rem;color:var(--muted)}.field-badge{font-weight:700;color:var(--green);background:var(--green2);padding:3px 8px;border-radius:999px;white-space:nowrap}.entry p{margin:8px 0;white-space:pre-wrap;overflow-wrap:anywhere}.entry-text{font-size:1rem}.entry-foot{font-size:.8rem;color:var(--muted)}.entry-actions{display:flex;gap:7px;margin-top:9px}.entry-actions button{min-height:38px;padding:7px 11px;font-size:.85rem}.entry-actions .secondary{flex:1}.entry-actions .danger{flex:0 0 auto}.hidden{display:none!important}.status{padding:8px 10px;border-radius:10px;background:#f0f5f1;margin-top:8px;font-size:.86rem}.status.error{background:#fff0f0;color:var(--danger)}.status.good{background:#e8f4e9;color:#24613d}.separator{border:0;border-top:1px solid var(--line);margin:14px 0}details summary{cursor:pointer;font-weight:650;padding:4px 0}details[open] summary{margin-bottom:10px}.footer-note{text-align:center;font-size:.78rem;color:var(--muted);padding:10px}.checkline{display:flex;align-items:center;gap:8px}.checkline input{width:auto;min-height:auto}.weather{color:var(--muted);font-size:.82rem;margin-top:5px}.empty{text-align:center;color:var(--muted);padding:18px 4px}@media(min-width:560px){.field-grid{grid-template-columns:1fr 1fr}.search-grid{grid-template-columns:1fr 1fr}.search-grid .wide{grid-column:1/-1}}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,-apple-system,"Noto Sans JP","Yu Gothic UI",sans-serif;line-height:1.5}button,input,textarea,select{font:inherit}button{min-height:44px;border:0;border-radius:12px;padding:10px 14px;font-weight:650;background:var(--green);color:white;cursor:pointer}button.secondary{background:var(--green2);color:var(--green);border:1px solid #c8dcd0}button.danger{background:#fff0f0;color:var(--danger);border:1px solid #ebcaca}button:disabled{opacity:.55;cursor:wait}input,textarea,select{width:100%;border:1px solid #bac9bd;border-radius:11px;background:#fff;color:var(--ink);padding:11px 12px;min-height:44px}textarea{min-height:150px;resize:vertical}label{font-size:.9rem;font-weight:650;display:block;margin-bottom:6px}.muted{color:var(--muted);font-size:.88rem}.tiny{font-size:.78rem;color:var(--muted)}header{background:var(--green);color:white;padding:20px 16px 18px}header h1{margin:0;font-size:1.45rem}header p{margin:5px 0 0;font-size:.88rem;color:#e2eee6}.statusbar{display:flex;justify-content:space-between;gap:8px;align-items:center;margin-top:12px;font-size:.82rem;color:#f0f6f1}.pill{border:1px solid #a9cab7;border-radius:999px;padding:3px 9px;white-space:nowrap}.wrap{max-width:760px;margin:0 auto;padding:14px 12px calc(30px + env(safe-area-inset-bottom))}.card{background:var(--white);border:1px solid var(--line);border-radius:var(--radius);padding:16px;margin-bottom:14px;box-shadow:0 2px 8px #18382908}.card h2{font-size:1.08rem;margin:0 0 12px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}.meta span{background:#f0f5f1;border-radius:9px;padding:7px 9px;font-size:.85rem}.row{display:flex;gap:8px;align-items:center}.row>*{min-width:0}.row button{flex-shrink:0}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}.actions button{flex:1}.field-grid{display:grid;grid-template-columns:1fr;gap:10px}.field-set{border:1px solid var(--line);padding:10px;border-radius:12px}.field-set .row{align-items:center}.field-set .row span{flex:1}.field-set button{font-size:.85rem;padding:8px 10px}.search-grid{display:grid;grid-template-columns:1fr;gap:10px}.entry{padding:13px 0;border-top:1px solid var(--line)}.entry:first-child{border-top:0;padding-top:0}.entry-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px;font-size:.84rem;color:var(--muted)}.field-badge{font-weight:700;color:var(--green);background:var(--green2);padding:3px 8px;border-radius:999px;white-space:nowrap}.entry p{margin:8px 0;white-space:pre-wrap;overflow-wrap:anywhere}.entry-text{font-size:1rem}.entry-foot{font-size:.8rem;color:var(--muted)}.entry-actions{display:flex;gap:7px;margin-top:9px}.entry-actions button{min-height:38px;padding:7px 11px;font-size:.85rem}.entry-actions .secondary{flex:1}.entry-actions .danger{flex:0 0 auto}.hidden{display:none!important}.status{padding:8px 10px;border-radius:10px;background:#f0f5f1;margin-top:8px;font-size:.86rem}.status.error{background:#fff0f0;color:var(--danger)}.status.good{background:#e8f4e9;color:#24613d}.separator{border:0;border-top:1px solid var(--line);margin:14px 0}details summary{cursor:pointer;font-weight:650;padding:4px 0}details[open] summary{margin-bottom:10px}.footer-note{text-align:center;font-size:.78rem;color:var(--muted);padding:10px}.checkline{display:flex;align-items:center;gap:8px}.checkline input{width:auto;min-height:auto}.empty{text-align:center;color:var(--muted);padding:18px 4px}@media(min-width:560px){.field-grid{grid-template-columns:1fr 1fr}.search-grid{grid-template-columns:1fr 1fr}.search-grid .wide{grid-column:1/-1}}
 </style>
 </head>
 <body>
@@ -26,8 +26,8 @@
     <p class="muted" id="gpsStatus">位置情報を確認しています。初回はAndroid／Chromeの位置情報許可が必要です。</p>
     <label for="workText">作業内容</label>
     <textarea id="workText" placeholder="ここをタップして、キーボードのマイクで話してください。例：今日はナスに追肥。葉に虫食いが少しあった。"></textarea>
-    <div class="actions"><button type="button" class="secondary" id="focusText">入力欄を開く</button><button type="button" id="saveRecord">記録を保存</button></div>
-    <p class="tiny">音声入力はスマホのキーボードのマイクを使います。文章はAIで直さず、そのまま保存します。</p>
+    <div class="actions"><button type="button" id="saveRecord">記録を保存</button></div>
+    <p class="tiny">作業内容欄をタップするとGPSを取得します。取得後にスマホのキーボードのマイクで話してください。文章はAIで直さず、そのまま保存します。</p>
     <div id="formStatus" class="status hidden" role="status"></div>
   </section>
 
@@ -56,11 +56,6 @@
     <div id="recordsList" aria-live="polite"></div>
   </section>
 
-  <section class="card">
-    <h2>天気・気温について</h2>
-    <p class="muted">天気と気温は「その頃どのくらいだったか」を思い出すための参考値です。通信できるとき、位置と記録時刻から大まかな値を自動で補います。作業内容の文章は外部へ送信しません。天気取得にはOpen-Meteoへ位置・日時の問い合わせを行います。</p>
-    <div class="row"><span id="weatherStatus" class="muted" style="flex:1">天気データの状態を確認中…</span><button type="button" class="secondary" id="refreshWeather">天気を更新</button></div>
-  </section>
   <p class="footer-note">記録はこのスマホの中に保存されます。PCやクラウドへ自動送信はしません。</p>
 </main>
 <script>
@@ -71,6 +66,8 @@
   const SETTINGS_KEY = 'sagyonisshi_mobile_settings_v1';
   const FIELD_NAMES = ['畑Y', '畑Kα', '畑KΓ'];
   let currentPosition = null;
+  let recordingPosition = null;
+  let positionCapturePromise = null;
   let editingId = null;
   let currentHeading = '新しい記録';
 
@@ -134,10 +131,6 @@
       }, {enableHighAccuracy:true, timeout:fresh ? 20000 : 12000, maximumAge:fresh ? 0 : 60000});
     });
   }
-  async function positionForSave() {
-    if (currentPosition && Date.now() - new Date(currentPosition.capturedAt).getTime() < 3*60*1000) return currentPosition;
-    return await getPosition(true);
-  }
   function renderFieldSetup() {
     const s = settings();
     $('fieldSetup').innerHTML = FIELD_NAMES.map(name => {
@@ -149,7 +142,10 @@
   }
   $('fieldSetup').addEventListener('click', async e => {
     const btn = e.target.closest('[data-register]'); if (!btn) return;
-    const name = btn.dataset.register; btn.disabled = true;
+    const name = btn.dataset.register;
+    const existing = settings().fields[name];
+    if (existing && !confirm(`${name}は登録済みです。現在地で上書きしますか？\n畑にいることを確認してから進めてください。`)) return;
+    btn.disabled = true;
     try {
       const pos = await getPosition(true); const s = settings();
       s.fields[name] = {lat:pos.lat, lon:pos.lon, accuracy:pos.accuracy, registeredAt:new Date().toISOString()};
@@ -161,7 +157,18 @@
     const v = Math.max(20, Math.min(500, Number($('radiusInput').value) || 100)); const s = settings(); s.radius = v; saveSettings(s); showStatus(`畑の判定範囲を${v}mに設定しました。`); if (currentPosition) $('fieldBadge').textContent = identifyField(currentPosition).name;
   });
   $('refreshGps').addEventListener('click', async () => { try { await getPosition(true); showStatus('現在地を更新しました。'); } catch (err) { showStatus(err.message, true); } });
-  $('focusText').addEventListener('click', () => { $('workText').focus(); $('workText').scrollIntoView({behavior:'smooth', block:'center'}); });
+  // 作業内容欄をタップした時点でGPSを取得し、保存時に自宅の位置へ変わらないよう固定する。
+  $('workText').addEventListener('focus', () => {
+    if (editingId || recordingPosition || positionCapturePromise) return;
+    setGpsStatus('作業場所のGPSを取得しています。音声入力を始める前に少しお待ちください。');
+    positionCapturePromise = getPosition(true).then(pos => {
+      recordingPosition = {...pos};
+      setGpsStatus(`作業場所を記録しました（誤差の目安 約${Math.round(pos.accuracy)}m）。保存時はこの位置を使います。`);
+      return recordingPosition;
+    }).catch(() => null).finally(() => {
+      positionCapturePromise = null;
+    });
+  });
 
   async function saveRecord() {
     const text = $('workText').value.trim();
@@ -172,22 +179,23 @@
       // Editing a past record changes only the text, not its original date, time or GPS position.
       const updated = all.map(r => r.id === editingId ? {...r, workText:text, updatedAt:new Date().toISOString()} : r);
       if (safeWrite(STORAGE_KEY, updated)) {
-        editingId = null; $('workText').value = ''; $('saveRecord').textContent = '記録を保存'; renderRecords();
+        editingId = null; $('workText').value = ''; recordingPosition = null; positionCapturePromise = null; $('workText').blur(); $('saveRecord').textContent = '記録を保存'; renderRecords();
         showStatus('文章を修正しました。元の日付・時刻・場所はそのままです。');
       }
       button.disabled = false; button.textContent = '記録を保存';
       return;
     }
-    const stamp = new Date(); const dt = localDateTime(stamp); let pos = null; let locError = '';
-    try { pos = await positionForSave(); } catch (err) { locError = err.message; }
-    if (!pos && !confirm('GPS位置を取得できませんでした。位置情報なしで保存しますか？')) { button.disabled = false; button.textContent = '記録を保存'; return; }
+    const stamp = new Date(); const dt = localDateTime(stamp); let pos = recordingPosition; 
+    if (positionCapturePromise) {
+      try { pos = await positionCapturePromise; } catch (_) { pos = null; }
+    }
+    if (!pos && !confirm('作業場所のGPSを取得できていません。位置情報なしで保存しますか？')) { button.disabled = false; button.textContent = '記録を保存'; return; }
     const field = pos ? identifyField(pos).name : '畑未判定';
-    const rec = {id:`${stamp.getTime()}-${Math.random().toString(36).slice(2,8)}`, timestamp:stamp.toISOString(), date:dt.date, time:dt.time, field, latitude:pos ? pos.lat : null, longitude:pos ? pos.lon : null, accuracy:pos ? pos.accuracy : null, workText:text, weather:'', temperature:'', weatherCheckedAt:null, updatedAt:new Date().toISOString(), createdAt:stamp.toISOString()};
+    const rec = {id:`${stamp.getTime()}-${Math.random().toString(36).slice(2,8)}`, timestamp:stamp.toISOString(), date:dt.date, time:dt.time, field, latitude:pos ? pos.lat : null, longitude:pos ? pos.lon : null, accuracy:pos ? pos.accuracy : null, workText:text, updatedAt:new Date().toISOString(), createdAt:stamp.toISOString()};
     if (safeWrite(STORAGE_KEY, [rec, ...all])) {
-      $('workText').value = ''; renderRecords();
+      $('workText').value = ''; recordingPosition = null; positionCapturePromise = null; $('workText').blur(); renderRecords();
       $('recordCount').scrollIntoView({behavior:'smooth', block:'nearest'});
-      showStatus(`${dt.display}の記録を保存しました。${field === '畑未判定' ? ' 畑名は未判定です。初回設定で畑の位置を登録してください。' : ''}${locError ? ' 位置情報は保存されていません。' : ''}`);
-      updateWeatherForMissing();
+      showStatus(`${dt.display}の記録を保存しました。${field === '畑未判定' ? ' 畑名は未判定です。初回設定で畑の位置を登録してください。' : ''}${!pos ? ' 位置情報は保存されていません。' : ''}`);
     }
     button.disabled = false; button.textContent = '記録を保存';
   }
@@ -198,10 +206,10 @@
   function renderRecords() {
     const search = $('searchText').value.trim().toLocaleLowerCase(); const field = $('filterField').value; const date = $('filterDate').value;
     const all = records().sort((a,b) => String(b.timestamp).localeCompare(String(a.timestamp)));
-    const shown = all.filter(r => (field==='すべて'||(r.field||'畑未判定')===field) && (!date||r.date===date) && (!search||`${r.workText} ${r.field} ${r.date} ${r.weather} ${r.temperature}`.toLocaleLowerCase().includes(search)));
+    const shown = all.filter(r => (field==='すべて'||(r.field||'畑未判定')===field) && (!date||r.date===date) && (!search||`${r.workText} ${r.field} ${r.date}`.toLocaleLowerCase().includes(search)));
     $('recordCount').textContent = `表示 ${shown.length} 件 ／ 保存合計 ${all.length} 件`;
     if (!shown.length) { $('recordsList').innerHTML = '<div class="empty">条件に合う記録はありません。</div>'; return; }
-    $('recordsList').innerHTML = shown.map(r => `<article class="entry"><div class="entry-head"><span class="field-badge">${escapeHtml(r.field||'畑未判定')}</span><span>${escapeHtml(r.date||'')}　${escapeHtml(r.time||'')}</span></div><p class="entry-text">${escapeHtml(r.workText||'')}</p><div class="weather">天気：${escapeHtml(r.weather||'未取得')}　気温：${r.temperature==null||r.temperature===''?'未取得':escapeHtml(String(r.temperature)+'℃')}</div><details><summary>場所・詳細</summary><p class="tiny">GPS：${Number.isFinite(r.latitude)&&Number.isFinite(r.longitude)?`${Number(r.latitude).toFixed(6)}, ${Number(r.longitude).toFixed(6)}（誤差目安 ${Math.round(r.accuracy||0)}m）`:'位置情報なし'}</p><p class="tiny">保存時刻：${escapeHtml(r.timestamp||'')}</p></details><div class="entry-actions"><button class="secondary" type="button" data-edit="${escapeHtml(r.id)}">文章を修正</button><button class="danger" type="button" data-delete="${escapeHtml(r.id)}">削除</button></div></article>`).join('');
+    $('recordsList').innerHTML = shown.map(r => `<article class="entry"><div class="entry-head"><span class="field-badge">${escapeHtml(r.field||'畑未判定')}</span><span>${escapeHtml(r.date||'')}　${escapeHtml(r.time||'')}</span></div><p class="entry-text">${escapeHtml(r.workText||'')}</p><details><summary>場所・詳細</summary><p class="tiny">GPS：${Number.isFinite(r.latitude)&&Number.isFinite(r.longitude)?`${Number(r.latitude).toFixed(6)}, ${Number(r.longitude).toFixed(6)}（誤差目安 ${Math.round(r.accuracy||0)}m）`:'位置情報なし'}</p><p class="tiny">保存時刻：${escapeHtml(r.timestamp||'')}</p></details><div class="entry-actions"><button class="secondary" type="button" data-edit="${escapeHtml(r.id)}">文章を修正</button><button class="danger" type="button" data-delete="${escapeHtml(r.id)}">削除</button></div></article>`).join('');
   }
   ['searchText','filterField','filterDate'].forEach(id => $(id).addEventListener(id==='searchText'?'input':'change', renderRecords));
   $('clearFilters').addEventListener('click', () => { $('searchText').value=''; $('filterField').value='すべて'; $('filterDate').value=''; renderRecords(); });
@@ -216,41 +224,8 @@
     catch(err){showStatus('バックアップを読み込めませんでした：'+err.message,true)} finally{e.target.value='';}
   });
 
-  function weatherName(code, precip) {
-    if (code===0) return '晴れ'; if ([1,2].includes(code)) return '晴れ時々くもり'; if (code===3) return 'くもり'; if ([45,48].includes(code)) return '霧'; if ([51,53,55,56,57].includes(code)) return '霧雨'; if ([61,63,65,66,67,80,81,82].includes(code)) return '雨'; if ([71,73,75,77,85,86].includes(code)) return '雪'; if ([95,96,99].includes(code)) return '雷雨'; if (Number(precip)>0.1) return '雨の可能性'; return '不明';
-  }
-  function closestHour(data, target) {
-    if (!data || !data.time || !data.time.length) return null;
-    let best=-1, delta=Infinity; for(let i=0;i<data.time.length;i++){ const d=Math.abs(new Date(data.time[i]+':00+09:00').getTime()-target.getTime()); if(d<delta){delta=d;best=i;} }
-    return best>=0 && delta<=90*60*1000 ? best : null;
-  }
-  async function fetchWeather(rec) {
-    if (!Number.isFinite(rec.latitude) || !Number.isFinite(rec.longitude)) throw new Error('位置なし');
-    const when=new Date(rec.timestamp || `${rec.date}T${rec.time||'12:00'}:00+09:00`); const targetDate=localDateTime(when).date; const recentUrl=new URL('https://api.open-meteo.com/v1/forecast');
-    recentUrl.search=new URLSearchParams({latitude:String(rec.latitude),longitude:String(rec.longitude),hourly:'temperature_2m,precipitation,weather_code',past_days:'7',forecast_days:'1',timezone:'Asia/Tokyo'}).toString();
-    let json=null, ix=null;
-    try { const response=await fetch(recentUrl.toString()); if(!response.ok) throw new Error('気象APIエラー'); json=await response.json(); ix=closestHour(json.hourly,when); } catch(_) {}
-    if(ix===null){
-      const archive=new URL('https://archive-api.open-meteo.com/v1/archive'); archive.search=new URLSearchParams({latitude:String(rec.latitude),longitude:String(rec.longitude),start_date:targetDate,end_date:targetDate,hourly:'temperature_2m,precipitation,weather_code',timezone:'Asia/Tokyo'}).toString();
-      const response=await fetch(archive.toString()); if(!response.ok) throw new Error('天気データがまだ取得できません'); json=await response.json(); ix=closestHour(json.hourly,when);
-    }
-    if(ix===null) throw new Error('該当時刻の気象データがありません');
-    const h=json.hourly; const t=h.temperature_2m[ix]; const code=h.weather_code[ix]; const p=h.precipitation[ix];
-    if(t===null||t===undefined) throw new Error('気温データなし');
-    return {weather:weatherName(Number(code),Number(p)),temperature:Math.round(Number(t)*10)/10,weatherCheckedAt:new Date().toISOString()};
-  }
-  async function updateWeatherForMissing(force=false) {
-    if (!navigator.onLine) { $('weatherStatus').textContent='オフラインです。Wi-Fiなどにつながると自動取得します。'; return; }
-    const all=records(); const now=Date.now(); const todo=all.filter(r=>Number.isFinite(r.latitude)&&Number.isFinite(r.longitude)&&(!r.weather||r.temperature===''||r.temperature==null)&&(force||!r.weatherCheckedAt||now-new Date(r.weatherCheckedAt).getTime()>24*60*60*1000)).slice(0,20);
-    if(!todo.length){$('weatherStatus').textContent='未取得の天気・気温はありません（位置情報のある記録が対象）。'; return;}
-    $('weatherStatus').textContent=`天気・気温を取得中… ${todo.length}件`;
-    let done=0,failed=0; for(const r of todo){try{const w=await fetchWeather(r);const current=records();const updated=current.map(x=>x.id===r.id?{...x,...w}:x);safeWrite(STORAGE_KEY,updated);done++;}catch(err){const current=records();safeWrite(STORAGE_KEY,current.map(x=>x.id===r.id?{...x,weatherCheckedAt:new Date().toISOString()}:x));failed++;} renderRecords(); await new Promise(res=>setTimeout(res,150));}
-    $('weatherStatus').textContent=`天気・気温：取得 ${done}件、未取得 ${failed}件。大まかな参考値です。`;
-  }
-  $('refreshWeather').addEventListener('click', () => updateWeatherForMissing(true));
   function updateConnection() {
     $('connectionStatus').textContent = navigator.onLine ? 'オンライン（記録は端末内）' : 'オフライン（記録できます）';
-    if(navigator.onLine) updateWeatherForMissing(); else $('weatherStatus').textContent='オフラインです。天気・気温は通信復帰後に取得します。';
   }
   window.addEventListener('online', updateConnection); window.addEventListener('offline', updateConnection);
   if ('serviceWorker' in navigator && (location.protocol==='https:' || location.hostname==='localhost' || location.hostname==='127.0.0.1')) {
@@ -258,8 +233,6 @@
   }
   function initialize() {
     const d=localDateTime(); $('datetimeBadge').textContent=d.display; renderFieldSetup(); renderRecords(); updateConnection();
-    // A location request happens automatically after first permission approval. Save still remains possible if location is unavailable.
-    getPosition(false).catch(()=>{});
   }
   initialize();
 })();
